@@ -1,2 +1,2 @@
-FROM archlinux/archlinux:latest
+FROM docker.io/archlinux/archlinux:latest
 COPY time.txt /
