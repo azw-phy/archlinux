@@ -1,1 +1,1 @@
-FROM archlinux:latest
+FROM archlinux/archlinux:latest
