@@ -1,1 +1,4 @@
 FROM nginx:latest
+RUN mkdir -vp /mirror-repo
+WORKDIR /mirror-repo
+RUN wget https://github.com/LizardByte/Sunshine/releases/latest/download/sunshine.pkg.tar.zst
