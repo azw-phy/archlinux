@@ -1,0 +1,1 @@
+FROM ghcr.io/games-on-whales/pulseaudio:master
